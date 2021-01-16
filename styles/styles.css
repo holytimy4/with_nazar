@@ -147,7 +147,97 @@ body {
 }
 
 /* Nav */
+.nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 700px;
+    padding: 0px 20px 0px 15px;
+    text-transform: uppercase;
+}
 
+/* main menu */
+
+.main_menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.nav_item {
+    text-decoration: none;
+    color: #ffffff;
+        
+    opacity: 0.5;
+    
+    transition: opacity 0.1s linear;
+}
+
+
+.nav_item:hover {
+    text-decoration: none;
+    
+    opacity: 1;
+}
+
+
+.nav_item:first-child {
+    margin-left: 0;
+}
+/* drop menu */
+
+
+.drop_menu {
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #1a6bf5;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+}
+
+.menu_list:hover .drop_menu {
+    display: flex;
+}
+
+.menu_list::after {
+    content: " ";
+    position: absolute;
+    border: 8px solid;
+    border-color: transparent transparent transparent #1a6bf5;
+    top: 0em;
+    left: 8em;
+    transition: 0.5s;
+}
+
+
+.menu_list:hover::after {
+    transform: rotate(90deg);
+}
+/* ul, a, li */
+
+
+ul {
+    display: flex;
+    padding-left:0 ;
+    list-style: none;
+}
+
+
+a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+li {
+    position: relative;
+}
+
+/*
 .nav {
     width: 700px;
     
@@ -353,7 +443,11 @@ body {
 
 
 .prov {
+<<<<<<< Updated upstream
     height: 10vh;
+=======
+    height: 100vh;
+>>>>>>> Stashed changes
 }
 
 
