@@ -85,6 +85,8 @@ li {
     z-index: 1000; 
     margin: 0 auto; 
     transition: opacity 0.5s linear; 
+    border: 0px solid white;
+    border-radius: 0 0 30px 30px;
 }
 
 .header__inner {
@@ -117,12 +119,13 @@ li {
     margin: 0 auto;
     background-color: #222428;
     border-radius: 0 0 30px 30px;
+    border: 0px solid white;
     opacity: 0.2; 
     animation-name: show_header;
 }
 
 .header--grey:hover{
-    border-bottom: none;
+    
     transition: opacity 0.5s linear;
     opacity: 1;
 }
@@ -479,4 +482,34 @@ li {
 
     height: 100vh;
 
+}
+
+/* Compilations */
+footer {
+    width: 100%;
+    
+    text-align: center;
+    margin: 100px auto 0;
+    background: #151618;
+    
+    padding: 25px;
+}
+
+.footer__info {
+    display: flex;
+    bottom: 0;
+    
+    
+    max-width: 1900px;
+    
+    
+    align-content: center;
+}
+
+.footer__text{
+    bottom: 0;
+    margin: 0 auto;  
+}
+.footer__decription{
+     
 }
