@@ -182,13 +182,14 @@ li {
 
 .drop_menu {
     position: absolute;
-    display: none;
+    display: flex;
     flex-direction: column;
     width: 170px;
     padding: 20px;
     font-size: 14px;
     border-radius: 5px;
-    background: #1a6bf5;     
+    background: #1a6bf5;
+    visibility: hidden;
 }
 
 .drop_menu li {
@@ -197,7 +198,7 @@ li {
 }
 
 .menu_list:hover .drop_menu {
-    display: flex;
+    visibility: visible;
 }
 
 .menu_list::after {
