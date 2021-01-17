@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" >
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     
@@ -39,10 +40,16 @@
        </div>
    </header>
    
-   
+   <div id="fullpage">
+	
+       
+	
+	<div class="section" data-anchor="slide3"></div>
+	
+</div>
+  
    <!-- Intro -->
-   
-    <div class="intro">
+   <div class="intro">
         <div class="container">
            <div class="intro__inner">
          
@@ -52,84 +59,77 @@
          </div>
        </div>
     </div>
-   
-      
       
     <!-- Features -->
-      
-       <div class="container__features">
+    <div class="container__features">
             <h2 class="features__intro">Наши преимущества</h2>
-            <div class="features">
+            <div class="features">  
+               <div class="features__item">
+                    <img src="images/tools.png" alt="" class="features__icon"
+                    width="128" height="128">
+                    <h4 class="features__title">Постоянное обновление уже существующих сборок.</h4>
+                    <p class="features__description">Мы постоянно обновляем сборки, фиксим баги в существующих сборках, если они присутствуют, создаем новые сборки с интересными модами.</p>
+               </div>
+               <div class="features__item">
+                    <img src="images/quest.png" alt="" class="features__icon"
+                    width="128" height="128">
+                    <h4 class="features__title">Наличие квестов с описаниями в большинстве сборок.</h4>
+                    <p class="features__description">Почти все наши сборки имеют интересные квесты с подробным описанием и вознаграждением, которое можно получить по мере развития.</p>
+               </div>
+               <div class="features__item">
+                    <img src="images/gear.png" alt="" class="features__icon"
+                    width="128" height="128">
+                    <h4 class="features__title">Интересные моды, полноценная русификация.</h4>
+                    <p class="features__description">Моды в наших сборках полностью русифицированы, крафты изменены, а большинство взаимосвязаны между собой и дополняют друг друга.</p>
+               </div>
                
-               <div class="features__item">
-                    <img src="images/Frame%205.png" alt="" class="features__icon"
-                    width="128" height="128">
-                    <h4 class="features__title">Наличие изменённых крафтов</h4>
-                    <p>123123 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aperiam consectetur sunt ducimus, cupiditate quos accusamus doloribus mollitia animi nesciunt porro iste dolores voluptatum unde suscipit, saepe vitae ipsam reprehenderit.</p>
-               </div>
-               <div class="features__item">
-                    <img src="images/Frame%206.png" alt="" class="features__icon"
-                    width="128" height="128">
-                    <h4 class="features__title">Наличие квестов с описаниями во многих сборках</h4>
-                    <p>123123 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aperiam consectetur sunt ducimus, cupiditate quos accusamus doloribus mollitia animi nesciunt porro iste dolores voluptatum unde suscipit, saepe vitae ipsam reprehenderit.</p>
-               </div>
-               <div class="features__item">
-                    <img src="images/Frame%2010.png" alt="" class="features__icon"
-                    width="128" height="128">
-                    <h4 class="features__title">Малопопуляорные моды, переведённые на русский.</h4>
-                    <p>123123 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aperiam consectetur sunt ducimus, cupiditate quos accusamus doloribus mollitia animi nesciunt porro iste dolores voluptatum unde suscipit, saepe vitae ipsam reprehenderit.</p>
-               </div>
-               <div class="features__item">
-                    <img src="images/Frame%204.png" alt="" class="features__icon"
-                    width="128" height="128">
-                    <h4 class="features__title">Тех.поддержка устраняющая многие баги.</h4>
-                    <p>123123 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aperiam consectetur sunt ducimus, cupiditate quos accusamus doloribus mollitia animi nesciunt porro iste dolores voluptatum unde suscipit, saepe vitae ipsam reprehenderit.</p>
-               </div>
-               <div class="features__item">
-                    <img src="images/Frame%207.png" alt="" class="features__icon"
-                    width="128" height="128">
-                    <h4 class="features__title">Сборки с необычным геймплеем</h4>
-                    <p>123123 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aperiam consectetur sunt ducimus, cupiditate quos accusamus doloribus mollitia animi nesciunt porro iste dolores voluptatum unde suscipit, saepe vitae ipsam reprehenderit.</p>
-               </div>
-                <div class="features__item">
-                    <img src="images/Frame%209.png" alt="" class="features__icon"
-                    width="128" height="128">
-                    <h4 class="features__title">Частые обновления и дополнения</h4>
-                    <p>123123 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aperiam consectetur sunt ducimus, cupiditate quos accusamus doloribus mollitia animi nesciunt porro iste dolores voluptatum unde suscipit, saepe vitae ipsam reprehenderit.</p>
-               </div>
                
             </div>
-        </div>
+        </div> 
+       
         
     <!-- Compilations -->
-       
-        <div class="compilations__container">
-            <h2 class="features__intro">Наши сборки!</h2>
+      
+      <div class="compilations__container">
+            <h2 class="features__intro">Наши сборки</h2>
             <div class="compilations">
                 <div class="compilations__item">
-                    <img src="images/Frame%209.png" alt="" class="compilations__icon"
-                    width="128" height="128">
-                    <h4 class="compilations__title">Частые обновления и дополнения</h4>
-                    <p>123123 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aperiam consectetur sunt ducimus, cupiditate quos accusamus doloribus mollitia animi nesciunt porro iste dolores voluptatum unde suscipit, saepe vitae ipsam reprehenderit.</p>
+                    <div class="compilations__left">
+                       <div class="compilations__name">
+                        <h3 class="compilations__title">Vanilla Classic</h3>
+                        <h4 class="compilations__subtitle">Приключения</h4></div>
+                        <p class="compilations__description">Если вы не любите индустриальные, магические или любые другие большие модификации, а хотите сохранить "ванильность" Майнкрафта, то эта сборка для вас!. Вместо добавления новых вещей происходит расширение и добавление новых механик в уже существующий уклад игры. Сборка подойдет как новичкам, так и опытным ребятам. В этой сборке можно погрузиться в выживание и узнать Майнкрафт таким, каким он был на заре своего появления. Мы постарались создать режим, в котором будет много интересных сюрпризов для игроков. Она также хорошо подходит для слабых ПК и отлично оптимизирована.</p>                     
+                    </div>
+                    <div class="compilations__right">  
+                        <img class="compilations__image" src="images/vanilla.jpg" width="480" height="290" alt="">
+                        
+                        <div class="compilations__download">
+                            <a class="compilations__button1 btn--blue " href="https://drive.google.com/file/d/1BSKbYoJkgqFAuobti_jfQDCyOPci-dZW/view">Скачать Google Drive</a>
+                            <a class="compilations__button2 btn--blue" href="https://yadi.sk/d/IhMQPN0mg2WsKg">Скачать Yandex Drive</a>
+                        </div>  
+                        
+                      
+                        
+                            
+                       
+                    </div>
+                    
                </div>
-               <div class="compilations__item">
-                    <img src="images/Frame%209.png" alt="" class="compilations__icon"
-                    width="128" height="128">
-                    <h4 class="compilations__title">Частые обновления и дополнения</h4>
-                    <p>123123 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aperiam consectetur sunt ducimus, cupiditate quos accusamus doloribus mollitia animi nesciunt porro iste dolores voluptatum unde suscipit, saepe vitae ipsam reprehenderit.</p>
-               </div>
-               <div class="compilations__item">
-                    <img src="images/Frame%209.png" alt="" class="compilations__icon"
-                    width="128" height="128">
-                    <h4 class="compilations__title">Частые обновления и дополнения</h4>
-                    <p>123123 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aperiam consectetur sunt ducimus, cupiditate quos accusamus doloribus mollitia animi nesciunt porro iste dolores voluptatum unde suscipit, saepe vitae ipsam reprehenderit.</p>
-               </div>
+               
+                
+               
+            
             </div>
         </div>
+       
+        
         
         <div class="prov"></div>
-   
 
- <script src="scripts/main.js"></script>   
+
+<script src="scripts/main.js"></script>
+
+
+            
 </body>
 </html>
