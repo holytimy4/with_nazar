@@ -365,6 +365,12 @@ li {
 
 .compilations__list__item{
     cursor: pointer;
+    opacity: 0.5;
+	transition: opacity 0.2s linear;
+}
+
+.compilations__list__item:hover {
+	opacity: 1;
 }
 
 .compilations__title{
