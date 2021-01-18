@@ -492,7 +492,7 @@ footer {
     margin: 100px auto 0;
     background: #151618;
     
-    padding: 25px;
+    padding: 40px 80px;
 }
 
 .footer__info {
@@ -500,16 +500,30 @@ footer {
     bottom: 0;
     
     
+    
     max-width: 1900px;
     
     
-    align-content: center;
+    justify-content: space-between;
 }
 
-.footer__text{
-    bottom: 0;
-    margin: 0 auto;  
+.footer__left{
+   width: 40%; 
 }
-.footer__decription{
-     
+
+.footer__right {
+    width: 40%;
+}
+.footer__description1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;  
+}
+
+.footer__description{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #696969;
+    font-weight: 600;  
 }
