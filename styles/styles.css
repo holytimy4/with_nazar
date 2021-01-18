@@ -31,6 +31,19 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     text-decoration: none;
 }
 
+input {
+	outline:none;
+	border: none;
+	background: none;
+	color: #fff;
+}
+
+input:focus{
+	opacity: 1;
+	background: #1a6bf5;
+	border-radius: 6px;
+}
+
 .h1,
 .h2,
 .h3,
@@ -354,7 +367,7 @@ li {
 .compilations__choose{
     padding: 20px;
     background-color: #151618;
-    border-radius: 20px;
+    border-radius: 17px;
 }
 
 .compilations__list{
@@ -383,7 +396,8 @@ li {
 }
 
 .compilations__list__submit:focus{
-    background: blue;
+	color: #fff;
+	opacity: 1;
 }
 
 .compilations__title{
@@ -440,7 +454,7 @@ li {
     vertical-align: top;
     justify-content: center;
     padding: 16px 20px;
-    border-radius: 6px;
+    border-radius: 17px;
     border: 2px solid #151618;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
@@ -456,7 +470,7 @@ li {
     vertical-align: top;
     justify-content: center;
     padding: 16px 20px;
-    border-radius: 6px;
+    border-radius: 17px;
     border: 2px solid #151618;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
