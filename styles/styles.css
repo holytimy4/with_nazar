@@ -46,35 +46,26 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 
 ul {
-    display: flex;
-    
+    display: flex;  
 }
-
 
 a {
     display: block;
     color: #fff;
 }
 
-
 li {
     position: relative;   
 }
 
-
 /* Container */
-
 .container {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;    
 }
 
-
-
-
 /* Header */
-
 .header {
     position: absolute;
     top: 0;
@@ -125,7 +116,6 @@ li {
 }
 
 .header--grey:hover{
-    
     transition: opacity 0.5s linear;
     opacity: 1;
 }
@@ -142,9 +132,7 @@ li {
     }
 }
 
-
 /* main menu */
-
 .main_menu {
     display: flex;
     width: 100%;
@@ -152,7 +140,6 @@ li {
 }
 
 /* Nav */
-
 .nav {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -162,27 +149,21 @@ li {
     text-transform: uppercase;
 }
 
-
 .nav_item {
     color: #ffffff;   
     opacity: 0.5;
     transition: opacity 0.1s linear;
 }
 
-
 .nav_item:hover {
     opacity: 1;
 }
-
 
 .nav_item:first-child {
     margin-left: 0;
 }
 
-
 /* drop menu */
-
-
 .drop_menu {
     position: absolute;
     display: flex;
@@ -194,7 +175,6 @@ li {
     background: #1a6bf5;
     visibility: hidden;
 }
-
 
 .menu_list:hover .drop_menu {
     visibility: visible;
@@ -208,17 +188,13 @@ li {
     border-color: transparent transparent transparent #1a6bf5;
     transition: 0.5s;
     content: " ";
-    
 }
-
 
 .menu_list:hover::after {
     transform: rotate(90deg);
 }
 
-
 /* drop_item */
-
 .drop_item {
     display: inline-block;
     width: 150px;
@@ -229,13 +205,11 @@ li {
     margin: 0;
 }
 
-
 .drop_item:hover {
     opacity: 1;
 }
 
 /* Intro */
-
 .intro {
     height: 1000px;
     padding-top: 100px;    
@@ -257,8 +231,7 @@ li {
     font-size: 67px;
     line-height: 1.1;
     color: #1a6bf5;
-    font-weight: 700;
-   
+    font-weight: 700;  
 }
 
 .intro__subtitle { 
@@ -267,12 +240,10 @@ li {
     font-size: 24px;
     color: #fff;
     line-height: 1.5;
-    font-weight: 400;
-    
+    font-weight: 400;   
 }
 
 /* Button */
-
 .btn {
     display: inline-block;
     vertical-align: top;
@@ -305,7 +276,6 @@ li {
 }
 
 /* Features */
-
 .container__features {
     width: 70%;
     max-width: 1900px;
@@ -315,7 +285,6 @@ li {
 .features {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .features__intro {
@@ -339,14 +308,12 @@ li {
 
 .features__item{
     width: 30%;
-    
     background-color: #1A6BF5; 
     border-radius: 17px;
     overflow: hidden;
     margin: 0 auto 30px;
     padding: 22px;
     text-align: center;
-    
     transition: 3s; 
 }
 
@@ -360,8 +327,6 @@ li {
      -webkit-transform: scale(1.07); 
 }
 
-
-
 .features__icon{
     margin-bottom: 8px;
 }
@@ -371,7 +336,6 @@ li {
     color: #fff;
     font-weight: 700;
     margin: 10px 0;
-    
     text-transform: uppercase;
 }
 
@@ -381,20 +345,33 @@ li {
 .compilations__container{
     width: 70%;
     max-width: 1400px;
-    margin: 0 auto ; 
-       
+    margin: 0 auto;       
 }
 
-.compilations {
-    
+.compilations {  
+}
+
+.compilations__choose{
+    padding: 20px;
+    background-color: #151618;
+    border-radius: 20px;
+}
+
+.compilations__list{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.compilations__list__item{
+    cursor: pointer;
 }
 
 .compilations__title{
     font-size: 42px;
     color: #fff;
     font-weight: 700;
-    margin: 10px 0;    
-    
+    margin: 10px 0;     
 }
 
 .compilations__subtitle{
@@ -413,34 +390,26 @@ li {
 .compilations__item {
     display: flex;
     justify-content: space-between;
-    
     background-color: #151618;
-    border-radius: 20px;
-    
+    border-radius: 20px;   
     padding: 22px;
     margin: 10px auto;
 }
 
-
-
-.compilations__left{
-    
+.compilations__left{  
 }
 
-.compilations__right{
-    
+.compilations__right{   
 }
 
 .compilations__image{
     border-radius: 10px;
 }
 
-.compilations__download{
-    
+.compilations__download{   
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;   
     padding: 10px 0 ;
 }
 
@@ -459,7 +428,6 @@ li {
     font-weight: 600; 
     text-decoration: none;
     transition: background .2s linear;
-
 }
 
 .compilations__button2 {
@@ -475,8 +443,7 @@ li {
     color: #fff;
     font-weight: 600; 
     text-decoration: none;
-    transition: background .2s linear;
-    
+    transition: background .2s linear;   
 }
 
 .compilations__button1:hover{
@@ -487,42 +454,30 @@ li {
     opacity: 1;
 }
 
-.prov {
-
-    height: 100vh;
-
-}
-
 /* Compilations */
 footer {
     width: 100%;
-    
     text-align: center;
     margin: 100px auto 0;
     background: #151618;
-    
     padding: 40px 80px;
 }
 
 .footer__info {
     display: flex;
     bottom: 0;
-    
-    
-    
     max-width: 1900px;
-    
-    
     justify-content: space-between;
 }
 
-.footer__left{
+.footer__left {
    width: 40%; 
 }
 
 .footer__right {
     width: 40%;
 }
+
 .footer__description1{
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
@@ -536,3 +491,32 @@ footer {
     color: #696969;
     font-weight: 600;  
 }
+
+.hide {
+    opacity: 1;
+    animation-name: a1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    display: none;
+}
+
+@keyframes a1{
+    to{
+        opacity: 0;
+        min-height: 0;
+        min-width: 0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+}
+
+advanture realizm, hardcore, rpg, space, tech, magic
+
+
+
+
+
+
+
+
