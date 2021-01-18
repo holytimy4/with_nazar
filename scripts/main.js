@@ -28,7 +28,7 @@ for (anchor of anchors) {
 const filterBox = document.querySelectorAll('.compilations__item');
 
 document.querySelector('.compilations__nav').addEventListener('click', event =>{
-    if (event.target.tagName !== 'LI') return false;
+    if (event.target.tagName !== 'INPUT') return false;
     
     let filterClass = event.target.dataset['f'];
     
