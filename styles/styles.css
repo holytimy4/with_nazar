@@ -169,7 +169,7 @@ li {
     display: flex;
     flex-direction: column;
     
-    padding: 20px  ;
+    padding: 18px  ;
     font-size: 14px;
     border-radius: 5px;
     background: #1a6bf5;
@@ -511,12 +511,20 @@ footer {
     }
 }
 
-advanture realizm, hardcore, rpg, space, tech, magic
 
+a.disable {
+	pointer-events: none;
+    cursor: default;
+}
 
-
-
-
-
-
-
+.scrollup{
+	width:40px;
+	height:40px;
+	opacity:0.3;
+	position:fixed;
+	bottom:50px;
+	right:100px;
+	display:none;
+	text-indent:-9999px;
+	background: url('../images/icon_top.png') no-repeat;
+}

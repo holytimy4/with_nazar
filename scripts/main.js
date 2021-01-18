@@ -11,7 +11,7 @@ window.onscroll = function showHeader() {
     
 };
 
-let anchors = document.querySelectorAll('header a[href*="#"]');
+let anchors = document.querySelectorAll('body a[href*="#"]');
 
 for (anchor of anchors) {
   if (anchor) {
@@ -39,4 +39,21 @@ document.querySelector('.compilations__nav').addEventListener('click', event =>{
         }
     });
     
+});
+
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollup').fadeIn();
+		} else {
+			$('.scrollup').fadeOut();
+}
+});
+ 
+	$('.scrollup').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
 });
