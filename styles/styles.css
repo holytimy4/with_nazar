@@ -40,7 +40,7 @@ input {
 
 input:focus{
 	opacity: 1;
-	background: #1064f2;
+	background: #1a6bf5;
 	border-radius: 6px;
 }
 
@@ -568,9 +568,6 @@ a.disable {
 /* responsive */
 
 @media screen and (max-width: 1200px) {
-	.compilations__container {
-		width: 1140px;
-	}
 }
 
 @media screen and (max-width: 1199px) {
@@ -578,6 +575,10 @@ a.disable {
 	}
 
 @media screen and (max-width: 991px) {
+	body {
+		background-image: url(../images/575_bg.jpg);
+	}
+	
 	.header__fixed {
 		visibility: hidden;
 	}
